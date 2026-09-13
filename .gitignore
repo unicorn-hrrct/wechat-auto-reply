@@ -1,0 +1,32 @@
+# 个人自动回复规则：包含真实的联系人昵称与回复内容，属于私人配置，不要提交
+rules.json
+
+# 运行产物
+auto_reply.log
+@AutomationLog.txt
+wechat_tree.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 宿主工具的会话记录（不属于项目，且可能含本地信息）
+.reasonix/
